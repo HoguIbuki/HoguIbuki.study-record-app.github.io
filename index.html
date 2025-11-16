@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyRecordApp</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- タイトル -->
+  <h1>学習記録アプリ</h1>
 
+  <!-- 入力フォーム -->
+  <form action="#" class="content-form">
+    <div class="form-group">
+      <!-- 学習内容の入力フォーム -->
+      <label for="subject">学習内容を入力</label>
+      <input type="text" id="subject" placeholder="例: DOM操作の基礎">
+      <br>
+      <!-- 学習時間の入力フォーム -->
+      <label for="study-hours">学習時間を入力</label>
+      <input type="number" id="study-hours" placeholder="例: 60(分)">
+      <br>
+      <!-- 登録ボタン -->
+      <!-- <input type="submit" value="送信"> -->
+      <button type="submit" class="btn-css" id="add-btn">登録</button>
+    </div>
+  </form>
+
+  <hr>
+
+  <h2>学習記録一覧</h2>
+  <P id="subject-list"></P>
+
+  <hr>
+
+  <h2>学習記録合計時間</h2>
+  <p id="study-hours-total"></p>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
