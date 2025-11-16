@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body {
+  background-color: #f0ffff;
+}
+
+h1 {
+  color: #4169e1;
+  border-bottom: dashed 2px #4169e1;
+}
+
+h2 {
+  color: #4169e1;
+}
+
+.btn-css {
+  display: inline-block;
+  text-decoration: none;
+  color: #4169e1;
+  border: solid 2px #4169e1;
+  transition: .4s;
+}
+.btn-css:hover {
+  background: #4169e1;
+  color: white;
+}
